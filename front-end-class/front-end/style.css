@@ -51,7 +51,19 @@
   }
 
   /* combinators */
-  .div1 p {
+
+  /* descendant selector  */
+  /* .div1 p {
     background-color: #886db5;
     font-style: italic;
+  } */
+
+  /* child selector */
+  .div1 > p {
+    background-color: #886db5;
+    font-style: italic;
+  }
+  /* adjacent sibling selector */
+  .div1 + p {
+    background-color: aqua;
   }
